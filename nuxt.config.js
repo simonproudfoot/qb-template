@@ -24,7 +24,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/mixins/mixins.js',
+    { src: '~/mixins/mixins.js', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -43,7 +43,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
-    defaultAssets: true,    
+    defaultAssets: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
