@@ -27,7 +27,6 @@
     </v-card>
 </v-container>
 </template>
-
 <script>
 // <VueVideoWrapper :player="'vimeo'" videoId="518099808" :autoplay="true" :muted="true" :resize="true" :fitParent="true" :loop="true" :controls="false"/>
 // import VueVideoWrapper from 'vue-video-wrapper'
