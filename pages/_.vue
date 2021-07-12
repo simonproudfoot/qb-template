@@ -24,7 +24,6 @@
 <script>
 export default {
     async asyncData({ $http, route }) {
-        console.log(route.params);
         const pData = await $http.$get(
             'https://quikblocs.firebaseio.com/projects/test%20_Ov3x7vYA1IOI6L6Lu5iSpSRSYHu1/pages.json?orderBy=%22url%22&startAt=%22' + route.params.pathMatch + '%22&endAt=%22' + route.params.pathMatch + '%22'
         );
